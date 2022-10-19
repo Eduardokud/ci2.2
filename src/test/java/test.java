@@ -22,7 +22,7 @@ public class test {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("id : 1," +
+                .body("data", equalTo("id : 11," +
                          "name: This one," +
                         "number: 0668," +
                         "balance: 992821429," +
@@ -33,7 +33,7 @@ public class test {
     }
 
 
-    
+
 
 
 
